@@ -1,0 +1,178 @@
+
+header {
+    background-color: rgba(169, 169, 169, 0.438);
+    color: #3a03a0;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(169, 169, 169, 0.5);
+    padding: 15px;
+    margin-top: 10px;
+    
+}
+
+nav a {
+    color: #3a03a0;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#mensaje {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+}
+
+.cuadro {
+    background-color: rgba(8, 3, 85, 0.5); 
+    color: #fff; 
+    font-size: 25px; 
+    padding: 20px;
+    border-radius: 60px;
+    text-align: center;
+    position: relative; 
+}
+.sec-1 {
+    text-align: center;
+    height: 60vh;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.cursos {  
+    margin: 50px auto;
+    width: 65%;  
+      
+}
+
+.texto2 {
+    color: #fff;
+}
+
+.texto2 h2 {
+    font-size: 32px;
+}
+
+.texto2 p{
+    font-size: 18px;
+}
+
+#imagen1 {
+    float: left;
+    border: 4px solid #fff;
+    border-radius: 25px;
+    margin-right: 15px;
+}
+.texto {
+    max-width: 1200px;
+    background-color: rgba(169, 169, 169, 0.438);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.texto p {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.image-container {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.title {
+    color: #fff; 
+    font-size: 20px;
+    font-weight: bold;
+}
+.title-container {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #000; 
+    padding: 10px; 
+    border-radius: 10px;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    padding: 50px;
+}
+
+.image-container2 {
+    width: 18%; 
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.text-container2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
