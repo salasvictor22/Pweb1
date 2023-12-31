@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculadora</h1>
+        <form method="post" action="cgis/calculadora.cgi">
+            <label for="numero1">Número 1:</label>
+            <input type="text" name="numero1" id="numero1">
+            
+            <label for="operacion">Operación:</label>
+            <select name="operacion" id="operacion">
+                <option value="sumar">+</option>
+                <option value="restar">-</option>
+                <option value="multiplicar">*</option>
+                <option value="dividir">/</option>
+            </select>
+            
+            <label for="numero2">Número 2:</label>
+            <input type="text" name="numero2" id="numero2">
+            
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+</body>
+</html>
